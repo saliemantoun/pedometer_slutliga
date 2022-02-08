@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pedometer_slutliga">
+    <!-- Flutter needs it to communicate with the running application
+         to allow setting breakpoints, to provide hot reload, etc.
+    -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <!-- TODO: Lägg till behörighet för att androids systemet på din mobil ska tillåta anvädning av sensorer (som ska räkna steg). Detta gör du genom att lägga till den här koden:-->
+    <!-- <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+</manifest>

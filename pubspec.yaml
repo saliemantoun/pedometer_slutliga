@@ -1,0 +1,33 @@
+name: pedometer_slutliga
+description: A new Flutter project.
+
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.0 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+
+  # TODO: Lägg till pedometer i dependencies genom att skriva i Terminalen: flutter pub add pedometer eller lägg till den manuellt: pedometer: ^3.0.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+
+  uses-material-design: true
+
